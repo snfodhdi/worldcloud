@@ -1,10 +1,13 @@
+# 2025.07.07 By. VIVA
+
+# 필수 라이브러리 임포트
 import requests
 from bs4 import BeautifulSoup
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
+# URL을 통해 뉴스 제목 크롤링하기
 def get_news():
-    """뉴스 제목 가져오기"""
     url = "https://www.bigkinds.or.kr/v2/news/search.do;Bigkinds=482D2818FAF321D74DDBB38965A5E017.tomcat2"
     
     response = requests.get(url)
@@ -22,10 +25,11 @@ print("뉴스 크롤링 중...")
 titles = get_news()
 print(f"총 {len(titles)}개 제목 수집")
 
+# 워드클라우드 만들기
 def make_wordcloud(titles):
-    """워드클라우드 만들기"""
     text = " ".join(titles)
 
+# 제외할 단어 선택
     exclude_words = [
         '뉴스', '일보', '신문', '데일리'
     ]
