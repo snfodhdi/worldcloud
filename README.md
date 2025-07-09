@@ -5,7 +5,7 @@
 Worldcloud project based on Python. <br>
 Use URL to crawl news titles.
 
-## Technique used
+## Used
 ![Static Badge](https://img.shields.io/badge/Python-%233776AB?style=flat&logo=python&logoColor=white&logoSize=auto&color=%233776AB) <br>
 ![Static Badge](https://img.shields.io/badge/Github-%23181717?style=flat&logo=github&logoColor=white&logoSize=auto&color=%23181717) <br>
 ![Static Badge](https://img.shields.io/badge/Claude-%23D97757?style=flat&logo=claude&logoColor=white&logoSize=auto&color=%23D97757)
