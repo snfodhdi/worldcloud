@@ -2,7 +2,7 @@
 ### 2025.07.07 by.VIVA
 
 ## About
-Worldcloud project with Python. <br>
+Worldcloud project based on Python. <br>
 Use URL to crawl news titles.
 
 ## Technique used
